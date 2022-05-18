@@ -1,5 +1,6 @@
 # polls
  1) docker-compose up -d
- 2) python manage.py migrate
- 3) source env/bin/activate
+ 2) source env/bin/activate
+ 3) python manage.py migrate
  4) python manage.py runserver
+ 
