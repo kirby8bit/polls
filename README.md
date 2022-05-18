@@ -4,3 +4,5 @@
  3) python manage.py migrate
  4) python manage.py runserver
  
+Чтобы можно было добавлять опросы, нужно перед этим завести админа:
+  python manage.py createsuperuser
