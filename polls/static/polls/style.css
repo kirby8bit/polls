@@ -1,6 +1,14 @@
 li a {
-    color: green;
+    color: rgb(53, 74, 142);
+    
 }
-body {
-    background: white url("images/background.gif") no-repeat;
+.polls{
+    
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+h1{
+    text-align:center;
 }
