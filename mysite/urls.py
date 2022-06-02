@@ -16,9 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.urls import include
+from drfPolls.views import QuestionAPIView
 
 
 urlpatterns = [
     path("polls/", include("polls.urls", namespace="polls")),
     path("admin/", admin.site.urls),
+    path("api/question_list/",QuestionAPIView.as_view()),
 ]
